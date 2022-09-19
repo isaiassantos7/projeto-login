@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #45a09d, #5f2c82);
+    }
+
+    
+
+    main {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+
+       
+    }
+
+    #imagem {
+        width: 100px;
+        height: 100px;  
+        display: inline-block;  
+    }
+        
+        
+        
+
+    div#formulario {
+        background-color: darkgrey;
+        display: inline-block;
+
+
+        
+    }
+
+    
+}
+
+
+
+
+
