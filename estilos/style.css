@@ -6,6 +6,15 @@
     Lilás: #5f2c82
 */
 
+:root {
+    cor1: #034040;
+    cor2: #027353;
+    cor3: #038c5a;
+    cor4: #03A65A;
+    cor5: #D93D1A;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,9 +40,9 @@ main {
 }
 
 #imagem {
-    background: #5f2c82 url(../imagens/pexels-well-naves-1829067.jpg);
+    background: #5f2c82 url(../imagens/pexels-dimka-nevedimka-10739186.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     
     height: 200px;
     
@@ -46,7 +55,7 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.966);
     border-radius: 20px;
     width: 250px;
     height: 550px;
@@ -113,8 +122,8 @@ form > input[type=submit]:hover {
     text-align: center;
     width: 100%;
     height: 40px;
-    background-color: white;
-    color: black;
+    background-color: #d93d1aea;
+    color:white;
     border: 2px solid black;
     border-radius: 5px;
     text-decoration: none;
@@ -127,7 +136,8 @@ form > a.botao > span {
 }
 
 form > a.botao:hover {
-    background-color: rgb(66, 165, 165);
+    background-color: rgba(255, 255, 255, 0.541);
+    color: #050124;
 }
 
 
